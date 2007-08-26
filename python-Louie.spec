@@ -1,5 +1,6 @@
 %define		module		Louie
 Summary:	Signal dispatching mechanism
+Summary(pl.UTF-8):	Mechanizm rozprowadzania sygnałów
 Name:		python-%{module}
 Version:	1.1
 Release:	0.1
@@ -20,6 +21,12 @@ Louie provides Python programmers with a straightforward way to
 dispatch signals between objects in a wide variety of contexts. It is
 based on PyDispatcher, which in turn was based on a highly-rated
 recipe in the Python Cookbook.
+
+%description -l pl.UTF-8
+Louie udostępnia programistom Pythona bezpośredni sposób
+rozprowadzania sygnałów między obiektami w szerokim zakresie
+kontekstów. Jest oparty na module PyDispatcher, który z kolei jest
+oparty na przepisie z dokumentu "Python Cookbook".
 
 %prep
 %setup -qn %{module}-%{version}
