@@ -3,7 +3,7 @@ Summary:	Signal dispatching mechanism
 Summary(pl.UTF-8):	Mechanizm rozprowadzania sygnałów
 Name:		python-%{module}
 Version:	1.1
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/L/Louie/%{module}-%{version}.tar.gz
@@ -12,6 +12,7 @@ URL:		http://pylouie.org/
 BuildRequires:	python >= 1:2.5
 BuildRequires:	python-setuptools >= 0.6-0.c1
 BuildRequires:	rpm-pythonprov
+Requires:	python-nose >= 0.8.3
 %pyrequires_eq	python-libs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
