@@ -3,7 +3,7 @@ Summary:	Signal dispatching mechanism
 Summary(pl.UTF-8):	Mechanizm rozprowadzania sygnałów
 Name:		python-%{module}
 Version:	1.1
-Release:	2
+Release:	3
 License:	BSD
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/L/Louie/%{module}-%{version}.tar.gz
