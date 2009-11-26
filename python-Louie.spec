@@ -10,6 +10,7 @@ Source0:	http://pypi.python.org/packages/source/L/Louie/%{module}-%{version}.tar
 # Source0-md5:	46a61f7a88c624433c96f28ae30aa1a4
 URL:		http://pylouie.org/
 BuildRequires:	python >= 1:2.5
+BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.c1
 BuildRequires:	rpm-pythonprov
 Requires:	python-nose >= 0.8.3
