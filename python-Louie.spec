@@ -6,7 +6,8 @@ Version:	1.1
 Release:	7
 License:	BSD
 Group:		Development/Languages/Python
-Source0:	http://pypi.python.org/packages/source/L/Louie/%{module}-%{version}.tar.gz
+#Source0Download: https://pypi.org/simple/louie/
+Source0:	https://files.pythonhosted.org/packages/source/L/Louie/%{module}-%{version}.tar.gz
 # Source0-md5:	46a61f7a88c624433c96f28ae30aa1a4
 URL:		http://pylouie.org/
 BuildRequires:	rpmbuild(macros) >= 1.714
