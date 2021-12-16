@@ -44,7 +44,8 @@ rm -rf $RPM_BUILD_ROOT
 %py_install
 
 %py_postclean
-rm -rf $RPM_BUILD_ROOT%{py_sitescriptdir}/louie/test
+
+%{__rm} -r $RPM_BUILD_ROOT%{py_sitescriptdir}/louie/test
 
 %clean
 rm -rf $RPM_BUILD_ROOT
