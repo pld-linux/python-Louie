@@ -9,13 +9,13 @@ Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/L/Louie/%{module}-%{version}.tar.gz
 # Source0-md5:	46a61f7a88c624433c96f28ae30aa1a4
 URL:		http://pylouie.org/
-BuildRequires:	rpmbuild(macros) >= 1.710
+BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	python >= 1:2.5
 BuildRequires:	python-devel
-BuildRequires:	python-setuptools >= 0.6-0.c1
+BuildRequires:	python-setuptools >= 1:0.6-0.c1
 BuildRequires:	rpm-pythonprov
+Requires:	python-libs
 Requires:	python-nose >= 0.8.3
-%pyrequires_eq	python-libs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
